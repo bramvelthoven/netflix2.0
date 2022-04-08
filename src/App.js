@@ -5,10 +5,12 @@ import requests from "./requests";
 import Row from "./Row";
 import Banner from "./Banner";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 function App() {
   return (
     <div className="app">
+      <title>Netflix</title>
       <Navbar />
       <Banner />
       <Row
@@ -23,6 +25,7 @@ function App() {
       <Row title="Horror Movies" fetchUrl={requests.fetchHorrorMovies} />
       <Row title="Romance Movies" fetchUrl={requests.fetchRomanceMovies} />
       <Row title="Documentaries" fetchUrl={requests.fetchDomentaries} />
+      {/* <Footer /> */}
     </div>
   );
 }

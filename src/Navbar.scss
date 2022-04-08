@@ -22,6 +22,7 @@
     left:20px;
     width:80px;
     object-fit:contain;
+    cursor: pointer;
 
 }
 
@@ -30,6 +31,58 @@
     right:20px;
     width:30px;
     object-fit:contain;
+}
+.navbar__items{
+    margin-left:70px;
+}
+.navbar__item{
+    color:white;
+    display:inline-block;
+    justify-content:center;
+    line-height: 1.3rem;
+    font-size: 0.8rem;
+    margin-left:25px;
+    
+
+}
+
+.navbar__item:hover{
+    color:#A2A39C;
+    transition: all 0.5s;
+    cursor:pointer;
+
+}
+
+.navbar__item-kids{
+    position:fixed;
+    cursor:pointer;
+    right:110px;
+    color:white;
+    line-height: 1.3rem;
+    font-size: 0.8rem;
+}
+
+.navbar__item-kids:hover{
+    color:#A2A39C;
+    transition: all 0.5s;
+    cursor:pointer;
+
+}
+
+.navbar__icon-search{
+    object-fit:contain;
+    position:fixed;
+    right:145px;
+    cursor:pointer;
+    
+    
+}
+
+.navbar__icon-bell{
+    object-fit:contain;
+    position:fixed;
+    right:75px;
+    cursor:pointer;
 }
 
 

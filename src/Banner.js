@@ -20,7 +20,7 @@ function Banner() {
   }, []);
 
   console.log(movie);
-
+  // Verkort de omschrijving van de films en voegd "..." toe
   function truncate(str, n) {
     return str?.length > n ? str.substr(0, n - 1) + "..." : str;
   }
@@ -48,8 +48,8 @@ function Banner() {
           {movie?.overview}
           {truncate(movie?.overview, 100)}
         </h1>
-        <div className="banner--fadeBottom"></div>
       </div>
+      <div className="banner--fadeBottom"></div>
     </header>
   );
 }
